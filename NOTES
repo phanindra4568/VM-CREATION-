@@ -1,0 +1,37 @@
+1️⃣ Create VM Instance
+
+Go to Compute Engine → VM Instances → Create Instance.
+
+OS: Ubuntu 22.04 LTS
+
+Machine type: e2-micro (free-tier eligible)
+
+Choose nearest region for better performance.
+
+2️⃣ Configure Firewall
+
+Enable HTTP and HTTPS traffic.
+
+3️⃣ Launch Instance
+
+Click Create and wait until it’s running.
+
+Note the External IP.
+
+4️⃣ Connect via SSH
+
+Click SSH → Open in Browser Window.
+
+A terminal window opens — your remote Linux VM.
+
+5️⃣ Test Connection
+Run basic commands:
+
+uname -a
+ls
+whoami
+
+
+6️⃣ Stop or Delete When Done
+
+From the dashboard, Stop or Delete the instance to save credits
